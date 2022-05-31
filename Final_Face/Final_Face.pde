@@ -7,17 +7,17 @@ void setup() {
   Circle head = new Circle(width/2, height/2, width/2, 225);
   Ellipse eye = new Ellipse(width/2.5, height/4, width/11, height/6, 90);
   Ellipse eye1 = new Ellipse(width - width/2.5, height/4, width/11, height/6, 90);
-  Square mouth = new Square(width/2 - (width/4)/2, height/1.3, width/4,0);
-  Rectangle tooth = new Rectangle(width/2, height/1.29, width/29, height/10,255);
+  Square mouth = new Square(width/2 - (width/4)/2, height/1.3, width/4, 0);
+  Rectangle tooth = new Rectangle(width/2, height/1.29, width/29, height/10, 255);
 
-  Rectangle tooth2 = new Rectangle(width/2-(width/27), height/1.29, width/29, height/10,255);
-  Rectangle tooth3 = new Rectangle(width/2-2*(width/27), height/1.29, width/29, height/10,255);
-  Rectangle tooth4 = new Rectangle(width/2-3*(width/27), height/1.29, width/29, height/10,255);
-  Rectangle tooth5 = new Rectangle(width/2+(width/27), height/1.29, width/29, height/10,255);
-  Rectangle tooth6 = new Rectangle(width/2+2*(width/27), height/1.29, width/29, height/10,255);
-  Line nose1 = new Line(width/2,height/2.5,width/2.6,height/2);
-   Line nose2 = new Line(width/2.6,height/2,width/2,height/2);
-    Line nose3 = new Line(width/2,height/2,width/2,height/2.5);
+  Rectangle tooth2 = new Rectangle(width/2-(width/27), height/1.29, width/29, height/10, 255);
+  Rectangle tooth3 = new Rectangle(width/2-2*(width/27), height/1.29, width/29, height/10, 255);
+  Rectangle tooth4 = new Rectangle(width/2-3*(width/27), height/1.29, width/29, height/10, 255);
+  Rectangle tooth5 = new Rectangle(width/2+(width/27), height/1.29, width/29, height/10, 255);
+  Rectangle tooth6 = new Rectangle(width/2+2*(width/27), height/1.29, width/29, height/10, 255);
+  Line nose1 = new Line(width/2, height/2.5, width/2.6, height/2);
+  Line nose2 = new Line(width/2.6, height/2, width/2, height/2);
+  Line nose3 = new Line(width/2, height/2, width/2, height/2.5);
 
 
 
