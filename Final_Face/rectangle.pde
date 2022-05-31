@@ -1,14 +1,15 @@
 class Rectangle extends Square{
   float Height;
-  
-    Rectangle(float x, float y, float xWidth,float yHeight){
-    super(x,y,xWidth);
+    color C;
+    Rectangle(float x, float y, float xWidth,float yHeight,color C){
+    super(x,y,xWidth,C);
     this.Height = yHeight;
+    this.C = C;
     };
     
     
     void draw(){
-      fill(255);
+      fill(C);
     rect(x,y,xWidth,Height);
       
     };

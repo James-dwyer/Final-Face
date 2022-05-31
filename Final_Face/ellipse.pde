@@ -1,7 +1,7 @@
 final class Ellipse extends Circle{
     float yDiameter;
-    Ellipse(float x, float y, float diameter, float Diameter){
-    super(x,y,diameter);
+    Ellipse(float x, float y, float diameter, float Diameter,color Color){
+    super(x,y,diameter,Color);
     
     this.yDiameter = Diameter;
     
@@ -10,7 +10,7 @@ final class Ellipse extends Circle{
     
     
     final void draw(){
-      fill(0);
+      fill(c);
     ellipse(x,y,diameter,yDiameter);
       
     };

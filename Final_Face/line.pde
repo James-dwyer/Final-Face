@@ -6,5 +6,11 @@ final class Line extends Point{
   this.y2 = Y2;
   
   };
+  
+  void draw(){
+    stroke(0);
+  line(x,y,x2,y2);
+  
+  };
 
 };

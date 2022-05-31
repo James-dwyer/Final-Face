@@ -1,12 +1,14 @@
 class Square extends Point{
   float xWidth;
-  Square(float x, float y, float Width){
+  color C;
+  Square(float x, float y, float Width,color Color){
   super(x,y);
   this.xWidth = Width;
+  this.C = Color;
   };
   
   void draw(){
-    fill(0);
+    fill(C);
     square(x,y,xWidth);
   };
 };
