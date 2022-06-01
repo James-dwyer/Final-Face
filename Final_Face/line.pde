@@ -1,4 +1,4 @@
-final class Line extends Point {
+final private class Line extends Point {
   float x2, y2;
   Line(float x, float y, float X2, float Y2) {
     super(x, y);

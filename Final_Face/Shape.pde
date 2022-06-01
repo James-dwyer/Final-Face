@@ -1,4 +1,4 @@
-abstract class Shape {
+abstract private class Shape {
   float x, y;
 
   Shape(float X, float Y) {
@@ -6,5 +6,5 @@ abstract class Shape {
     this.y = Y;
   };
 
-  abstract void draw();
+  abstract public void draw();
 };

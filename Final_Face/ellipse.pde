@@ -1,4 +1,4 @@
-final class Ellipse extends Circle {
+final private class Ellipse extends Circle {
   float yDiameter;
   Ellipse(float x, float y, float diameter, float Diameter, color Color) {
     super(x, y, diameter, Color);
@@ -8,7 +8,7 @@ final class Ellipse extends Circle {
 
 
 
-  final void draw() {
+  final public void draw() {
      noStroke();
     fill(c);
     ellipse(x, y, diameter, yDiameter);

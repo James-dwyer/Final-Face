@@ -6,13 +6,15 @@ void setup() {
   smooth();
   
 
-  Circle head = new Circle(width/2, height/2, width/2, 225);
-  Ellipse eye = new Ellipse(width/2.5, height/4, width/11, height/6, 90);
-  Ellipse eye1 = new Ellipse(width - width/2.5, height/4, width/11, height/6, 90);
+  Circle head = new Circle(width/2, height/2, width/2, 245);
+  Ellipse eye = new Ellipse(width/2.5, height/4, width/11, height/6, 145);
+  Ellipse eye1 = new Ellipse(width - width/2.5, height/4, width/11, height/6, 145);
+  Ellipse iris = new Ellipse(width/2.5, height/4,width/19,height/9,#4040FF);
+  Ellipse iris1 = new Ellipse(width - width/2.5, height/4,width/19,height/9,#4040FF);
   Square mouth = new Square(width/2 - (width/4)/2, height/1.6, width/4, 0);
-  Ellipse mouthC = new Ellipse(width/2,height/1.6,width/4,height/9,225);
-  Ellipse mouthU = new Ellipse(width/2,height/1.6 + height/4,width/4,height/6,225);
-  Rectangle chinC = new Rectangle(width/2 - (width/4)/2,height/1.6 + height/6,width/4,height/11,225);
+  Ellipse mouthC = new Ellipse(width/2,height/1.6,width/4,height/9,245);
+  Ellipse mouthU = new Ellipse(width/2,height/1.6 + height/4,width/4,height/6,245);
+  Rectangle chinC = new Rectangle(width/2 - (width/4)/2,height/1.6 + height/6,width/4,height/11,245);
   Line chin = new Line(width/2,height/1.6 + height/4,width/2,(height/1.6 + height/4) + height/6);
   Rectangle tooth = new Rectangle(width/2, height/1.49, width/29, height/10, 255);
   
@@ -21,15 +23,17 @@ void setup() {
   Rectangle tooth4 = new Rectangle(width/2-3*(width/27), height/1.55, width/29, height/10, 255);
   Rectangle tooth5 = new Rectangle(width/2+(width/27), height/1.5, width/29, height/10, 255);
   Rectangle tooth6 = new Rectangle(width/2+2*(width/27), height/1.55, width/29, height/10, 255);
-  Line nose1 = new Line(width/2, height/2.5, width/2.6, height/2);
-  Line nose2 = new Line(width/2.6, height/2, width/2, height/2);
-  Line nose3 = new Line(width/2, height/2, width/2, height/2.5);
+  Line nose1 = new Line(width/1.9, height/2.5, width/2.6, height/2);
+  Line nose2 = new Line(width/2.6, height/2, width/1.9, height/2);
+  Line nose3 = new Line(width/1.9, height/2, width/1.9, height/2.5);
 
 
 
   Shapes.add(head);
   Shapes.add(eye);
   Shapes.add(eye1);
+  Shapes.add(iris);
+  Shapes.add(iris1);
   Shapes.add(nose1);
   Shapes.add(nose2);
   Shapes.add(nose3);

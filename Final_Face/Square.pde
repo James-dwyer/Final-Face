@@ -1,4 +1,4 @@
-class Square extends Point {
+private class Square extends Point {
   float xWidth;
   color C;
   Square(float x, float y, float Width, color Color) {

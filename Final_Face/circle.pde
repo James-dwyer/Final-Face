@@ -1,4 +1,4 @@
-class Circle extends Point {
+private class Circle extends Point {
   float diameter;
   color c;
 
@@ -8,7 +8,7 @@ class Circle extends Point {
     this.c = Color;
   }
 
-  void draw() {
+  public void draw() {
     fill(c);
     circle(x, y, diameter);
   };
