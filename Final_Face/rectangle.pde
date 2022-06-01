@@ -9,6 +9,7 @@ class Rectangle extends Square {
 
 
   void draw() {
+    noStroke();
     fill(C);
     rect(x, y, xWidth, Height);
   };

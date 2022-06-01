@@ -8,6 +8,7 @@ class Square extends Point {
   };
 
   void draw() {
+    noStroke();
     fill(C);
     square(x, y, xWidth);
   };

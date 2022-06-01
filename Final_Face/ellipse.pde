@@ -9,6 +9,7 @@ final class Ellipse extends Circle {
 
 
   final void draw() {
+     noStroke();
     fill(c);
     ellipse(x, y, diameter, yDiameter);
   };
