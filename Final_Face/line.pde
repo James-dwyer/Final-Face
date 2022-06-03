@@ -6,7 +6,7 @@ final private class Line extends Point {
     this.y2 = Y2;
   };
 
-  void draw() {
+  final public void draw() {
     stroke(0);
     line(x, y, x2, y2);
   };
