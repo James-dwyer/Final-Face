@@ -11,6 +11,10 @@ void setup() {
   Ellipse eye1 = new Ellipse(width - width/2.5, height/4, width/11, height/6, 145);
   Ellipse iris = new Ellipse(width/2.5, height/4,width/19,height/9,#4040FF);
   Ellipse iris1 = new Ellipse(width - width/2.5, height/4,width/19,height/9,#4040FF);
+  Circle pupil = new Circle(width/2.5, height/4,width/25,0);
+  Circle pupil1 = new Circle(width - width/2.5, height/4,width/25,0);
+  Ellipse ear = new Ellipse(width/3.7,height/2.5,width/19,height/5,245);
+   Ellipse ear1 = new Ellipse(width/1.37,height/2.5,width/19,height/5,245);
   Square mouth = new Square(width/2 - (width/4)/2, height/1.6, width/4, 0);
   Ellipse mouthC = new Ellipse(width/2,height/1.6,width/4,height/9,245);
   Ellipse mouthU = new Ellipse(width/2,height/1.6 + height/4,width/4,height/6,245);
@@ -34,9 +38,13 @@ void setup() {
   Shapes.add(eye1);
   Shapes.add(iris);
   Shapes.add(iris1);
+  Shapes.add(pupil);
+  Shapes.add(pupil1);
   Shapes.add(nose1);
   Shapes.add(nose2);
   Shapes.add(nose3);
+  Shapes.add(ear);
+  Shapes.add(ear1);
   Shapes.add(mouth);
     Shapes.add(tooth);
 
